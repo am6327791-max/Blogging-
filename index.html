@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspira | Interior Design Inspiration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="index.html">INSPIRA<span>.</span></a>
+  <button class="menu-btn" id="menuBtn">☰</button>
+  <nav id="navLinks">
+    <a class="active" href="index.html">Home</a>
+    <a href="explore.html">Explore</a>
+    <a href="materials.html">Materials</a>
+    <a href="blog.html">Blog</a>
+    <a href="saved.html">Saved <span id="savedCount" class="count">0</span></a>
+    <a class="nav-login" href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">INTERIOR DESIGN • MATERIALS • IDEAS</p>
+    <h1>Design a space<br><em>you'll love.</em></h1>
+    <p>Discover beautiful interiors, explore materials, read design stories and save ideas for your dream space.</p>
+    <div class="hero-buttons">
+      <a href="explore.html" class="btn btn-dark">Explore Designs →</a>
+      <a href="blog.html" class="btn btn-light">Read the Blog</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=85" alt="Modern interior">
+    <div class="floating-card"><strong>01</strong><span>Modern<br>Living</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">EXPLORE</p><h2>Find your room style</h2></div>
+    <a href="explore.html" class="text-link">View all →</a>
+  </div>
+  <div class="room-grid">
+    <a href="explore.html?room=Living%20Room" class="room-card"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80"><span>Living Room</span></a>
+    <a href="explore.html?room=Bedroom" class="room-card"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=700&q=80"><span>Bedroom</span></a>
+    <a href="explore.html?room=Kitchen" class="room-card"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80"><span>Kitchen</span></a>
+    <a href="explore.html?room=Bathroom" class="room-card"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=700&q=80"><span>Bathroom</span></a>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="section-head">
+    <div><p class="eyebrow">MATERIAL GUIDE</p><h2>Materials that define a space</h2></div>
+    <a href="materials.html" class="text-link">Explore materials →</a>
+  </div>
+  <div class="material-grid">
+    <a href="materials.html#marble" class="material-card"><span>01</span><h3>Marble</h3><p>Elegant, timeless & luxurious</p></a>
+    <a href="materials.html#wood" class="material-card"><span>02</span><h3>Wood</h3><p>Warm, natural & versatile</p></a>
+    <a href="materials.html#tiles" class="material-card"><span>03</span><h3>Tiles</h3><p>Practical with endless styles</p></a>
+    <a href="materials.html#wallpaper" class="material-card"><span>04</span><h3>Wallpaper</h3><p>Expressive walls made easy</p></a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><div><p class="eyebrow">FROM THE BLOG</p><h2>Design stories & tips</h2></div><a href="blog.html" class="text-link">All articles →</a></div>
+  <div class="blog-grid" id="homeBlogs"></div>
+</section>
+</main>
+
+<footer>
+  <div><a class="logo" href="index.html">INSPIRA<span>.</span></a><p>Interior inspiration for spaces that feel like you.</p></div>
+  <div><p>© 2026 Inspira. Academic project.</p></div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
